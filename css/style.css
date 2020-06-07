@@ -1,0 +1,474 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.navbar{
+    margin-bottom: 0
+}
+.navbar-inverse .navbar-brand{
+    
+    FONT-FAMILY: inherit;
+    FONT-SIZE: 40px;
+    color: #f39c12;
+
+}
+
+.navbar-inverse .navbar-brand span{
+ font-size: 25px;
+    margin-left: -5px;
+    
+}
+
+.navbar-inverse .navbar-brand span:hover{
+ color:#f39c12;
+ 
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    
+    background-color: #f39c12
+    
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    
+    color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus{
+    
+    background-color: #f39c12
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus{
+    
+    background-color: #f39c12
+}
+
+.dropdown-menu .divider{
+    background-color: #f39c12;
+}
+
+.dropdown-menu > li > a:hover{
+    background-color: #f39c12
+}
+
+
+
+
+.carousel-indicators .active{
+    background-color: #f39c12
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right{
+    color: #f39c12;
+}
+
+
+.carousel-caption{
+    background-color: rgba(0,0,0,.3);
+    border-radius: 50px;
+}
+
+.about{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-size: 32px;
+    font-weight: bold;
+   
+}
+
+.about p{
+    color: #524d4d;
+}
+
+ hr{
+    
+    margin-bottom: 20px;
+    border: 1px solid #f39c12;
+}
+
+.features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #bdc3c7
+    
+}
+
+
+.features .feat span{
+    FONT-SIZE: 25px;
+    font-weight: bold;
+}
+
+.features .feat h3{
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.features .feat p{
+    
+    color: #524d4d;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.signup{
+background: url(../images/AdobeStock_115816639.jpeg);
+background-size: cover;
+min-height: 530px;
+position: relative;
+overflow: hidden;
+}
+.signup h2{
+    margin: 25px 0;
+}
+
+.signup .overlay{
+
+    background-color: rgba(0,0,0,.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: seashell;
+}
+
+.signup form{
+background-color: snow;
+padding-top: 30px;
+padding-bottom: 20px;
+border-radius: 25px;
+}
+
+.signup form h3{
+    color: black;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.signup form .btn{
+    width: 100%;
+    background-color: #f39c12;
+    height: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.signup form h3 span{
+    color: #f39c12;
+    font-weight: normal;
+}
+
+.signup input{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    color: black;
+    background-color: transparent;
+}
+
+.signup form .loginsp{
+    color: #bdb7b7;
+    margin: 150px;
+}
+.signup .sign-info{
+    padding-bottom: 20px;
+}
+
+.signup .sign-info h3{
+    border-bottom: 2px solid #ccc;
+}
+.signup .sign-info p{
+color: #bdb7b7;
+}
+
+@media (max-width:767px){
+    .signup{
+        min-height: 800px;
+    }
+}
+
+.subscribe{
+    background: url(../images/AdobeStock_98585734.jpeg);
+    background-size: cover;
+    height: 470px;
+    position: relative;
+    color: #FFF;
+    margin-top: 20px
+}
+
+.subscribe .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+
+}
+
+.subscribe h2{
+    margin-top: 150px;
+        font-size: 45px;
+    font-weight: bold;
+}
+.subscribe p{
+    font-weight: bold;
+}
+
+.our-prices{
+    
+    background: #bdc3c7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    margin-top: 20px
+}
+.our-prices .price{
+    background: #FFF;
+    padding-bottom: 20px;
+    border: 2px solid #f39c12;
+   margin-top: 20px
+}
+.our-prices h2{
+    margin-top: 0;
+    font-size: 45px;
+}
+
+.our-prices p{
+    font-size: 20px
+}
+
+.our-prices .price h3{
+    background-color: #bdc3c7;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    margin-left: -45px;
+    border: 2px solid #f39c12;
+    position: relative;
+    left: 50%;
+}
+
+.our-prices .price .glyphicon{
+    margin-right: 8px
+}
+
+
+.our-sales{
+ padding-top: 30px;
+ padding-bottom: 30px;
+ background: url(../images/AdobeStock_144076999.jpeg) no-repeat center center fixed;
+ background-size: cover;
+ min-height: 370px;
+  color: aliceblue;
+  margin-top: 20px
+}
+
+
+.our-sales h2{
+ margin-top: 0;
+ margin-bottom: 20px;
+ font-weight: bold;
+}
+
+.our-sales .progress{
+ height: 30px;
+ margin-top: 30px
+ 
+}
+
+.our-sales .progress-bar{
+ font-size: 18px;
+ line-height: 30px;
+ text-align: left;
+ padding-left: 10px;
+}
+
+.our-sales .sales-info{
+ margin-top: 50px;
+}
+
+.our-sales .sales-info h3{
+ font-weight: bold;
+ font-size: 25px;
+ margin-bottom: 20px;
+}
+
+
+
+
+.store{
+ 
+padding-top: 30px;
+background: #f1f2f6
+}
+.thumbnail > img, .thumbnail a > img{
+ height: 250px
+}
+
+/*start loading*/
+
+
+.overlay-loading{
+ position: fixed;
+ height: 100%;
+ width: 100%;
+ top: 0;
+ left: 0;
+ background-color: #f39c12;
+ z-index: 9999
+ 
+}
+
+.overlay-loading .sk-folding-cube {
+  margin: 200px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+   transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+   animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+
+/*end loading*/
+.footer h3{
+font-size: 30px;
+font-weight: bold;
+background: #f7f1e3
+}
+.media img{
+ width: 80px;
+ height: 60px;
+ margin-left: -15px;
+ 
+}
+
+.sitemap  li{
+ padding: 15px 15px 15px 0;
+ font-size: 15px;
+ font-weight: bold;
+ cursor: pointer
+}
+
+
+.con-icon img{
+ width: 40px;
+ margin-top: 30px;
+ cursor: pointer
+}
+
+.amaze-prod img{
+ width: 160px;
+height: 115px;
+margin-bottom: 15px;
+cursor: pointer
+}
+
+.copyright{
+ background: #2d3436;
+    color: aliceblue;
+}
